@@ -1,0 +1,26 @@
+.mainTable{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+textarea{
+    resize: none;
+    background-color: #8e8ea0;
+}
+
+body{
+    background-color: #40414f;
+}
+
+.btn{
+    font-size: 18px;
+    background-color: #8e8ea0;
+}
+
+.error {
+    border: 2px solid red; /* Red border for the textarea */
+    background-color: #ffeeee; /* A light background color for highlighting */
+    color: red; /* Text color for emphasis */
+}
